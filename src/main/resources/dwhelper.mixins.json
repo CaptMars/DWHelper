@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "me.mars.dwhelper.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"ExampleMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

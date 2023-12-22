@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "dwhelper",
+	"version": "${version}",
+	"name": "DWHelper",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/dwhelper/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			{
+				"value": "me.mars.dwhelper.DWHelper",
+				"adapter": "kotlin"
+			}
+		]
+	},
+	"mixins": [
+		"dwhelper.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.1",
+		"minecraft": "~1.19.4",
+		"java": ">=17",
+		"fabric-api": "*",
+		"fabric-language-kotlin": ">=1.9.21"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
